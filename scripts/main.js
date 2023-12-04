@@ -14,3 +14,5 @@ vehiculo1.mostrarDatos();
 vehiculo1.arrancar();
 vehiculo1.acelerar("140");
 vehiculo1.frenar();
+
+const deportivo1 = new AutomovilDeportivo("Ferrari", "Spider", "amarillo", 2020, "4000", "5000");
