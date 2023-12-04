@@ -26,3 +26,7 @@ div{
         opacity: 0;
     }
 }
+
+.evento{
+    animation: aparecerDesaparecer 1.5s ease-in-out infinite;
+}
