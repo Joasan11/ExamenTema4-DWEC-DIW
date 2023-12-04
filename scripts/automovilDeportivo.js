@@ -15,7 +15,7 @@ export class AutomovilDeportivo extends Vehiculo {
     }
 
     get potenciaMotor(){
-        return this.potenciaMotor;
+        return this.#potenciaMotor;
     }
 
     set potenciaMotor(value){
