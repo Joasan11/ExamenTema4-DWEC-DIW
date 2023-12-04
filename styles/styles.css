@@ -34,7 +34,7 @@ div{
     font-size: 5rem;
 }*/
 
-/* Pseudoselector para hacer que del div, se coja solamente lo que se añade gracias al main.js es decir las etiquetas <p>*/
+/* Pseudoselector para hacer que del div, coja solamente lo ultimo que tenga respecto a etiquetas, dentro de el, es decir las etiquetas <p>*/
 div:last-child{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.25rem;
