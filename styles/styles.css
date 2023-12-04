@@ -46,4 +46,5 @@ div:first-child{
     box-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, 1px 1px #ffffff, -1px 1px #ffffff;
     text-align: center;
     margin-top: -25px;
+    text-shadow: 0 0 7px #ffffff;
 }
