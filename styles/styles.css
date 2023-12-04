@@ -10,11 +10,6 @@ body{
     background-attachment: fixed;
 }
 
-div{
-    background: linear-gradient(to right, transparent, black);
-    box-shadow: -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 black, -1px 1px 0 black;
-}
-
 @keyframes aparecerDesaparecer {
     0%, 100%{
         opacity: 1;
@@ -34,8 +29,17 @@ div{
     font-size: 5rem;
 }*/
 
-/* Pseudoselector para hacer que del div, coja solamente lo ultimo que tenga respecto a etiquetas, dentro de el, es decir las etiquetas <p>*/
+/* Pseudoselector para hacer que del div, coja solamente lo ultimo que tenga respecto a etiquetas, dentro de el, es decir las etiquetas <p> */
 div:last-child{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.25rem;
+    background: linear-gradient(to right, transparent, #000000);
+    box-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, 1px 1px 0 #000000, -1px 1px #000000;
+}
+
+/* Pseudoselector para hacer que del div, coja solamente lo primero que tenga respecto a etiquetas, dentro de el, es decir la etiqueta <h1> */
+div:first-child{
+    background-color: rgb(61, 61, 221);
+    color: white;
+    box-shadow: -1px -1px 0 white, 1px -1px 0 white, 1px 1px 0 white, -1px 1px white;
 }
