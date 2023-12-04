@@ -24,4 +24,8 @@ export class Vehiculo {
             El coche tiene una cilindrada de: ${this.cilindrada}
         `;
     }
+
+    acelerar(velocidad){
+        const mensaje = `El vehiculo ${this.marca} ha acelerado a unos ${this.velocidad} Km/h`
+    }
 }
