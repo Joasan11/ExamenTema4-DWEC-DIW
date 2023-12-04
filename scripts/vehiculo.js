@@ -23,6 +23,8 @@ export class Vehiculo {
             El coche se fabrico en: ${this.anoFabricacion}
             El coche tiene una cilindrada de: ${this.cilindrada}
         `;
+
+        mostrarResultados(`<p>${datos}</p>`);
     }
 
     acelerar(velocidad){
