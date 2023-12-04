@@ -43,7 +43,7 @@ export class Vehiculo {
     }
 
     get marca(){
-        return this.marca;
+        return this.#marca;
     }
 
     set marca(value){
@@ -51,7 +51,7 @@ export class Vehiculo {
     }
 
     get modelo(){
-        return this.modelo;
+        return this.#modelo;
     }
 
     set modelo(value){
@@ -59,7 +59,7 @@ export class Vehiculo {
     }
 
     get color(){
-        return this.color;
+        return this.#color;
     }
 
     set color(value){
@@ -67,7 +67,7 @@ export class Vehiculo {
     }
 
     get anoFabricacion(){
-        return this.anoFabricacion;
+        return this.#anoFabricacion;
     }
 
     set anoFabricacion(value){
@@ -75,7 +75,7 @@ export class Vehiculo {
     }
 
     get cilindrada(){
-        return this.cilindrada;
+        return this.#cilindrada;
     }
 
     set cilindrada(value){
