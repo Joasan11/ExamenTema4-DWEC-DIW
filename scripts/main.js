@@ -46,3 +46,11 @@ const deportivoObject = {
     cilindrada: deportivo1.cilindrada,
     potenciaMotor: deportivo1.potenciaMotor
 };
+
+// Guardamos el objeto deportivoObject en el localstorage bajo la clave "deportivo"
+
+// Eliminamos almenos dos propiedades del localStorage
+
+// Limpiar localStorage de todo lo que tenga
+
+localStorage.clear();
