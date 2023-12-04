@@ -34,4 +34,49 @@ export class Vehiculo {
         const mensaje = `El vehiculo ha arrancado`;
         mostrarResultados(`<p>${mensaje}</p>`);
     }
+
+    frenar(){
+        const mensaje = `El vehiculo ha frenado`;
+        mostrarResultados(`<p>${mensaje}</p>`);
+    }
+
+    get marca(){
+        return this.marca;
+    }
+
+    set marca(value){
+        this.marca = value;
+    }
+
+    get modelo(){
+        return this.modelo;
+    }
+
+    set modelo(value){
+        this.modelo = value;
+    }
+
+    get color(){
+        return this.color;
+    }
+
+    set color(value){
+        this.color = value;
+    }
+
+    get anoFabricacion(){
+        return this.anoFabricacion;
+    }
+
+    set anoFabricacion(value){
+        this.anoFabricacion = value;
+    }
+
+    get cilindrada(){
+        return this.cilindrada;
+    }
+
+    set cilindrada(value){
+        this.cilindrada = value;
+    }
 }
