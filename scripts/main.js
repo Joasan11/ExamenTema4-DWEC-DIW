@@ -1,3 +1,6 @@
+import { Vehiculo } from "../scripts/vehiculo.js";
+import { AutomovilDeportivo } from "../scripts/automovilDeportivo.js";
+
 const resultadoContainer = document.createElement("div");
 document.body.appendChild(resultadoContainer);
 
