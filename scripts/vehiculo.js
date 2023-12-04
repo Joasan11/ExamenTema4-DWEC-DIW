@@ -32,7 +32,7 @@ export class Vehiculo {
     }
 
     acelerar(velocidad){
-        const mensaje = `El vehiculo ${this.marca} ha acelerado a unos ${this.velocidad} Km/h`
+        const mensaje = `El vehiculo ${this.marca} ha acelerado a unos ${velocidad} Km/h`
         mostrarResultados(`<p>${mensaje}</p>`);
     }
 

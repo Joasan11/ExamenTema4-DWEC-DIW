@@ -12,5 +12,5 @@ const vehiculo1 = new Vehiculo("BMW", "CLK", "rojo", 1992, "2400");
 mostrarResultados(`<p>Vehiculo 1:</p>`);
 vehiculo1.mostrarDatos();
 vehiculo1.arrancar();
-vehiculo1.acelerar(140);
+vehiculo1.acelerar("140");
 vehiculo1.frenar();
