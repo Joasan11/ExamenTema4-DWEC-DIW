@@ -27,5 +27,11 @@ export class Vehiculo {
 
     acelerar(velocidad){
         const mensaje = `El vehiculo ${this.marca} ha acelerado a unos ${this.velocidad} Km/h`
+        mostrarResultados(`<p>${mensaje}</p>`);
+    }
+
+    arrancar(){
+        const mensaje = `El vehiculo ha arrancado`;
+        mostrarResultados(`<p>${mensaje}</p>`);
     }
 }
