@@ -4,7 +4,7 @@ import { mostrarResultados } from "../scripts/main.js";
 export class AutomovilDeportivo extends Vehiculo {
     #potenciaMotor;
 
-    constructor(marca, modelo, color, anoFabricacion, cilindrada){
+    constructor(marca, modelo, color, anoFabricacion, cilindrada, potenciaMotor){
         super(marca, modelo, color, anoFabricacion, cilindrada);
         this.#potenciaMotor = potenciaMotor;
     }
