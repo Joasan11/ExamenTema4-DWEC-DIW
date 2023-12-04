@@ -35,11 +35,15 @@ div:last-child{
     font-size: 1.25rem;
     background: linear-gradient(to right, transparent, #000000);
     box-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, 1px 1px 0 #000000, -1px 1px #000000;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 /* Pseudoselector para hacer que del div, coja solamente lo primero que tenga respecto a etiquetas, dentro de el, es decir la etiqueta <h1> */
 div:first-child{
-    background-color: rgb(61, 61, 221);
+    background-color: #3d3ddd;
     color: white;
-    box-shadow: -1px -1px 0 white, 1px -1px 0 white, 1px 1px 0 white, -1px 1px white;
+    box-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, 1px 1px #ffffff, -1px 1px #ffffff;
+    text-align: center;
+    margin-top: -25px;
 }
