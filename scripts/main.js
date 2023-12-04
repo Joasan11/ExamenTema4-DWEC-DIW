@@ -49,8 +49,19 @@ const deportivoObject = {
 
 // Guardamos el objeto deportivoObject en el localstorage bajo la clave "deportivo"
 
-// Eliminamos almenos dos propiedades del localStorage
+for(let key in deportivoObject){
+    //hasOwnProperty lo utilizamos para almacenar el nombre de la propiedad de cada objeto
+    if(deportivoObject.hasOwnProperty(key)){
+        localStorage.setItem(key, deportivoObject[key]);
+    }
+}
+
+// Eliminar un elemento del localStorage
+
+//localStorage.removeItem("color");
+//localStorage.removeItem("marca");
 
 // Limpiar localStorage de todo lo que tenga
 
-localStorage.clear();
+//localStorage.clear();
+
