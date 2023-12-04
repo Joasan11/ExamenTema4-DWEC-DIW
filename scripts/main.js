@@ -16,6 +16,7 @@ vehiculo1.acelerar(140);
 vehiculo1.frenar();
 
 // Creamos un objeto llamado  vehiculoObject que contenga las propiedades de vehiculo1
+
 const vehiculoObject = {
     marca: "BMW",
     modelo: "CLK",
@@ -34,3 +35,14 @@ deportivo1.mostrarDatos();
 deportivo1.arrancar();
 deportivo1.acelerar(140);
 deportivo1.frenar();
+
+// Creamos un objeto llamado deportivoObject que contenga las propiedades de deportivo1
+
+const deportivoObject = {
+    marca: deportivo1.marca,
+    modelo: deportivo1.modelo,
+    color: deportivo1.color,
+    anoFabricacion: deportivo1.anoFabricacion,
+    cilindrada: deportivo1.cilindrada,
+    potenciaMotor: deportivo1.potenciaMotor
+};
