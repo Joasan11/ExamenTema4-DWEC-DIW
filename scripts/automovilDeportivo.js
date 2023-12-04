@@ -10,7 +10,7 @@ export class AutomovilDeportivo extends Vehiculo {
     }
 
     activarModoDeportivo(){
-        const mensaje = `El modo deportivo ha sido activado`;
+        const mensaje = `El modo deportivo ha sido activado, y tiene una potencia de Motor de: ${this.#potenciaMotor}`;
         mostrarResultados(`<p>${mensaje}</p>`);
     }
 

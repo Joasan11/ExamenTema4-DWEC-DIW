@@ -35,6 +35,7 @@ deportivo1.mostrarDatos();
 deportivo1.arrancar();
 deportivo1.acelerar(140);
 deportivo1.frenar();
+deportivo1.activarModoDeportivo();
 
 // Creamos un objeto llamado deportivoObject que contenga las propiedades de deportivo1
 
